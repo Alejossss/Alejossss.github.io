@@ -20,12 +20,26 @@
     .card a:hover{opacity:.9}
     footer a{color:var(--txt); opacity:.8}
     footer a:hover{opacity:1}
+    .card p {
+      color: #f1f3f9; /* más claro para mejor legibilidad */
+      line-height: 1.6;
+    }
+    .card h3 {
+      color: #ffffff;
+      font-weight: 600;
+    }
+    .card:hover {
+      border-color: var(--acc);
+      transform: translateY(-4px);
+      transition: all 0.25s ease;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.35);
+    }
   </style>
 </head>
 <body>
   <main class="container py-5">
     <section class="hero text-center mb-5">
-      <img class="avatar mb-3" src="https://avatars.githubusercontent.com/u/00000000" alt="Tu foto">
+      <img class="avatar mb-3" src="https://avatars.githubusercontent.com/u/132115802?s=400&u=2c7145a23173bfedfa0f9a00a9ebbd4dd9d26195&v=4" alt="Tu foto">
       <h1 class="fw-bold">Alejandro Jaramillo Rodriguez</h1>
       <p class="lead mb-3">Desarrollador Web • Python/Django • Electronica</p>
       <div>
@@ -43,13 +57,23 @@
       <div class="row g-4">
         <article class="col-md-6">
           <div class="card p-4 h-100">
-            <h3 class="h5 mb-2">Dinamic Chrono Display</h3>
-            <p class="mb-3">Es un dispositivo interactivo que combina diseño y tecnología para mostrar información en tiempo real de manera clara y dinámica. 
-              Permite visualizar hora, temperatura, humedad y mensajes personalizados en una matriz LED, ajustando automáticamente el brillo según el ambiente.</p>
-            <div class="mb-3"><span class="chip">Arduino</span><span class="chip">Telegram</span><span class="chip">Electronica</span></div>
-            <a href="https://github.com/Alejossss/Dynamic-Chrono-Display" target="_blank">Ver repositorio →</a>
+            <h3 class="h5 mb-2">Dynamic Chrono Display</h3>
+            <p class="mb-3">
+              Dispositivo interactivo que une <strong>diseño, electrónica y programación</strong> para mostrar datos en tiempo real de forma clara y atractiva. 
+              Incluye <em>hora, temperatura, humedad</em> y mensajes personalizados en una matriz LED, con brillo adaptable al ambiente. 
+              Su integración con <strong>Telegram</strong> permite el envío de notificaciones y control remoto, ofreciendo una experiencia moderna y conectada.
+            </p>
+            <div class="mb-3">
+              <span class="chip">Arduino</span>
+              <span class="chip">Telegram Bot</span>
+              <span class="chip">IoT</span>
+              <span class="chip">Electrónica</span>
+            </div>
+            <a href="https://github.com/Alejossss/Dynamic-Chrono-Display" target="_blank"> Ver repositorio →
+            </a>
           </div>
         </article>
+
 
       </div>
     </section>
